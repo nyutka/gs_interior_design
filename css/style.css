@@ -2853,56 +2853,6 @@ footer a,
 	letter-spacing: 0.05em;
 }
 
-#footer-instagram {
-	text-align: center;
-	position: relative;
-	margin-bottom: -108px;
-}
-
-#footer-instagram .widgettitle {
-	display: inline-block;
-	margin-bottom: 36px;
-}
-
-#footer-instagram .instagram-pics {
-	font-size: 0;
-	margin: 0;
-}
-
-#footer-instagram .instagram-pics li {
-	display: inline-block;
-	margin: 0;
-	width: 12.5%;
-}
-
-#footer-instagram .instagram-pics li img {
-	max-width: 100%;
-	width: auto;
-	height: auto;
-}
-
-#footer-instagram .instagram-pics li img:hover {
-	opacity: 0.9;
-}
-
-#footer-instagram .clear {
-	bottom: 7px;
-	font-size: 12px;
-	left: 0;
-	letter-spacing: 1px;
-	line-height: 1.1;
-	position: absolute;
-	right: 0;
-}
-
-#footer-instagram .clear a {
-	background: #ffffff;
-	border: medium none;
-	color: #151515;
-	display: inline-block;
-	padding: 7px 14px;
-}
-
 /**
 * #7.# OTHER
 *

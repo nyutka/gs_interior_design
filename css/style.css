@@ -1298,13 +1298,15 @@ transform: translateY(-50%);
 
 /* Instagram feed */
 .eapps-instagram-feed {
-
+	
 }
 
 .eapps-instagram-feed-title {
 	padding: 15px 10px !important;
 }
-.eapps-widget-toolbar + a {
+.eapps-widget-toolbar + a,
+.eapps-instagram-feed-container + a,
+#eapps-instagram-feed-1 > a {
 	display: none !important;
 	opacity: 0 !important;
 	visibility: 0 !important;
@@ -2821,7 +2823,7 @@ aside table td,
 */
 
 footer {
-	margin-top: -45px;
+	margin-top: -56px;
 	padding: 0 0 20px 0;
 	background: #151515;
 }

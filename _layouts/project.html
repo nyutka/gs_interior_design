@@ -1,0 +1,43 @@
+---
+layout: default
+---
+		<div class="top-single-bkg" style="background-image:url('../{% if page.cover_image %}{{ page.cover_image }}{% else %}{{ page.main_image }}{% endif %}');">
+			<div class="inner-desc">
+				<div class="container">
+					<h1 class="post-title single-post-title">{{ page.title }}</h1>
+				</div>
+			</div>
+		</div>
+
+		<div class="page-holder custom-page-template page-full fullscreen-page clearfix">
+		<!-- <section class="section-holder margin-b72 aligncm">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12">
+						<h2 class="section-title margin-b32">Heading Title</h2>
+					</div>
+					<div class="col-lg-6 margin-bm32">
+						<p>Appareat reformidans his te. Mundi erroribus ad eum, mea ut dicam nostro copiosae. Eligendi accusamus nec ex. Et usu ludus vitae tritani, suas deleniti pertinacia et quo. Duo veritus mediocrem ex, vidit fabellas vis ea.</p>
+					</div>
+				</div>		
+			</div>
+		</section> -->
+
+		<section class="section-holder">
+			<div class="gallery-container">
+				<div class="container">
+					<div class="row layout-masonry gallery-holder gallery-masonry2cols">
+						{% for photo in page.galleries %}
+						<div class="col-sm-6 col-lg-6 blog-item-masonry gallery-post">
+							<a href="{{ photo.image | relative_url  }}" class="lightbox" title=""> 
+								<img class="img-fluid" src="{{ photo.image | relative_url  }}" alt="{{ photo.alt }}"> 
+							</a>
+						</div>
+						{% endfor %}
+					</div>
+				</div>
+				</div>
+		</section>
+		<!-- /SECTION 2-->
+		</div>
+		<!-- page-content -->

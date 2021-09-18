@@ -22,7 +22,7 @@ title: GS INTERIOR DESIGN AND MORE
 email: info@gs-design.be
 description: >- # this means to ignore newlines until "baseurl:"
   GS Interior design is a full-service interior design studio founded by Sona Grigoryan and based in Belgium.
-baseurl: "/gs_interior_design" 
+baseurl: "" 
 url: "gs-design.be" 
 
 # Build settings

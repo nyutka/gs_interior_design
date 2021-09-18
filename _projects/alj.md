@@ -5,6 +5,8 @@ main_image: "images/projects/alj/alj2.jpg"
 galleries:
   - image: images/projects/alj/GJB_UITV_Keuken opties 210903gs.jpg
     alt: project
+  - image: images/projects/alj/alj1.jpg
+    alt: project
   - image: images/projects/alj/alj2.jpg
     alt: kitchen
   - image: images/projects/alj/alj3.jpg

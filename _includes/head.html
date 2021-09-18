@@ -1,7 +1,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GS INTERIOR DESIGN AND MORE</title>
+    <title>{{ site.title }} | {{ page.title }}</title>
+    <meta name="description" content="{{ site.description }}">
     <!-- Google Fonts -->
     <link rel='stylesheet' id='gleam-font-css'  href='https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,700,700i%7CCormorant:400,400i,500,600,700,700i' type='text/css' media='all' />
     <!-- Bootstrap CSS -->
@@ -22,4 +23,28 @@
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="msapplication-config" content={{ "/images/favicon/browserconfig.xml"  | relative_url }}>
     <meta name="theme-color" content="#ffffff">
+
+    <link rel="canonical" href="{{ site.url }}" />
+    
+    <!-- Primary Meta Tags -->
+    <meta name="title" content="{{ site.title }}">
+    <meta name="description" content="{{ site.description }}">
+    <meta name="Keywords" content="design, furniture, interior, exteriror, solid wood, stainless steel, germany, best quality,
+    muebles, mesa, madera maciza, acero inoxidable, alemania, moebel, möbel, möbeldesign, hohfertig, vollholz, massivholz,
+    tisch, sideboard">
+    <meta name="robots" content="index, follow">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="{{ page.url | relative_url }}">
+    <meta property="og:title" content="{{ site.title }}">
+    <meta property="og:description" content="{{ site.description }}">
+    <meta property="og:image" content="/images/gs/logo.png">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="{{ page.url | relative_url }}">
+    <meta property="twitter:title" content="{{ site.title }}">
+    <meta property="twitter:description" content="{{ site.description }}">
+    <meta property="twitter:image" content="/images/gs/logo.png">
 </head>

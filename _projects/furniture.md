@@ -1,10 +1,11 @@
 ---
-layout: project
 title: Furniture
-main_image: "images/projects/furniture/646.jpg"
+layout: project
+main_image: images/projects/furniture/646.jpg
 galleries:
-  - image: images/projects/furniture/646.jpg
-    alt: table
-  - image: images/projects/furniture/646.jpg
-    alt: table
+- image: images/projects/furniture/646.jpg
+  alt: table
+- image: images/projects/furniture/646.jpg
+  alt: table
 ---
+
